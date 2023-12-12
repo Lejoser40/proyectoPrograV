@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css" media="screen">
+    <link rel="stylesheet" href="/css/print.css" media="print">
+    <title>Examen III</title>
+</head>
+
+<body>
+    <h1>Resumen de reservacion</h1>
+
+    <div id="form2">
+        <form action="" method="post">
+
+            <div id="rows">
+                <label for="name"> Nombre: </label>
+                <input type="text" id="nameResult">
+                <br>
+            </div>
+
+            <div id="rows">
+                <label for="dni"> Cedula: </label>
+                <input type="text" name="dni" id="dniResult">
+                <br>
+            </div>
+
+            <div id="rows">
+                <label for="phoneNumberResult"> Telefono: </label>
+                <input type="tel" name="phoneNumber" id="phoneNumberResult">
+                <br>
+            </div>
+
+            <div id="rows">
+                <label for="email"> Email: </label>
+                <input type="email" id="emailResult">
+                <br>
+            </div>
+
+            <div id="rows">
+                <label for="reservationDateResult"> Fecha de compra: </label>
+                <input type="text" id="reservationDateResult">
+                <br>
+            </div>
+
+            <div id="rows">
+                <label for="season"> Temporada: </label>
+                <input type="text" id="seasonResult">
+                <br>
+            </div>
+
+
+            <div id="rows">
+                <label for="numAdults"> Cantidad de adultos: </label>
+                <input type="text" id="numAdults">
+                <br>
+            </div>
+
+            <div id="rows">
+                <label for="numKids"> Cantidad de niños: </label>
+                <input type="text" id="numKids">
+                <br>
+            </div>
+
+            <fieldset>
+                <legend>Clase:</legend>
+
+                <label for="economic"> Economica: </label>
+                <input type="checkbox" id="economicResult" name="radAnswer">
+
+                <label for="business"> Empresarial: </label>
+                <input type="checkbox" id="businessResult" name="radAnswer">
+
+                <label for="firstClass"> Primera Clase: </label>
+                <input type="checkbox" id="firstClassResult" name="radAnswer">
+            </fieldset>
+            <br>
+
+            <div id="rows">
+                <label for="fee"> Tarifa aplicada: </label>
+                <input type="text" id="feeResult">
+                <br>
+            </div>
+
+            <div id="rows">
+                <label for="adults"> monto total a pagar por adulto: </label>
+                <input type="text" id="adultsResult">
+                <br>
+            </div>
+
+            <div id="rows">
+                <label for="minors"> monto total a pagar por niño: </label>
+                <input type="text" id="minorsResult">
+                <br>
+            </div>
+
+            <div id="rows">
+                <label for="total"> Total a pagar: </label>
+                <input type="text" id="totalResult">
+                <br>
+            </div>
+        </form>
+
+    </div>
+
+    <script src="/javaScript/paso3.js"></script>
+</body>
+
+</html>

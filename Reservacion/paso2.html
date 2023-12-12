@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css" media="screen">
+    <link rel="stylesheet" href="/css/print.css" media="print">
+    <title>Examen III</title>
+</head>
+
+<body>
+    <h1>Reservacion</h1>
+
+    <div id="form">
+        <form action="" id="reservationForm">
+
+            <div id="rows">
+                <label for="name"> Nombre: </label>
+                <input type="text" id="name" placeholder="Pepe" required>
+                <br>
+            </div>
+
+            <div id="rows">
+                <label for="dni"> Cedula: </label>
+                <input type="text" name="dni" id="dni" placeholder="1-0102-0304" pattern="[0-7]{1}-[0-10]{4}-[0-10]{4}"
+                    required>
+                <br>
+            </div>
+
+            <div id="rows">
+                <label for="email"> Email: </label>
+                <input type="email" id="email" placeholder="SSquarepants@gmoil.com" required>
+                <br>
+            </div>
+
+            <div id="rows">
+                <label for="phoneNumber"> Telefono: </label>
+                <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="1234-5678"
+                    pattern="[0-9]{4}-[0-9]{4}" required>
+                <br>
+            </div>
+
+            <div id="rows">
+                <label for="destination"> Destino: </label>
+                <select name="destination" id="destination" required>
+                    <option value="Peru">Peru</option>
+                    <option value="USA">USA</option>
+                    <option value="España">España</option>
+                    <option value="Panama">Panama</option>
+                    <option value="Guatemala">Guatemala</option>
+                </select>
+                <br>
+            </div>
+
+            <div id="rows">
+                <label for="quantity"> Cantidad de tiquetes: </label>
+                <input type="number" name="quantity" id="quantity" min="1" max="6" value="1" required>
+                <br>
+            </div>
+
+            <div id="rows">
+                <label for="kids"> Cantidad de niños: </label>
+                <input type="number" name="quantity" id="kids" min="1" max="6" value="1" required>
+                <br>
+            </div>
+
+            <fieldset>
+                <legend>Clases:</legend>
+
+                <label for="economic"> Economica: </label>
+                <input type="radio" id="RadioEconomic" name="radAnswer" value="economic" required>
+
+                <label for="business"> Empresarial: </label>
+                <input type="radio" id="RadioBusiness" name="radAnswer" value="business" required>
+
+                <label for="firstClass"> Primera Clase: </label>
+                <input type="radio" id="RadiofirstClass" name="radAnswer" value="firstClass" required>
+            </fieldset>
+            <br>
+
+            <div id="rows">
+                <label for="reservationDate"> Fecha de reservacion: </label>
+                <input type="date" id="reservationDate" required>
+            </div>
+            <div id="rows">
+                <button type="submit" class="button-30" id="buttonForm1" onclick="">Confimar</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="/javaScript/paso2.js" language="javascript" type="text/javascript"></script>
+</body>
+
+</html>

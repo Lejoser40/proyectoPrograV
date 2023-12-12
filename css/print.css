@@ -1,0 +1,208 @@
+.noprint {
+    display: none;
+    visibility: hidden;
+}
+
+.pageBreak {
+
+    page-break-before: always;
+
+    page-break-inside: avoid;
+
+}
+
+#center {
+    border: none;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+}
+
+table,
+img,
+svg {
+    break-inside: avoid;
+}
+
+h1 {
+    font-size: 24pt;
+    break-before: always;
+}
+
+
+h2,
+h3,
+h4 {
+    font-size: 14pt;
+    margin-top: 25px;
+}
+
+p {
+
+    page-break-after: always;
+    text-align: justify;
+    font-family: Arial;
+    font-size: small;
+    color: black;
+}
+
+ul {
+    text-align: justify;
+    list-style: inside;
+}
+
+
+li {
+    font-family: Arial;
+    font-size: small;
+    margin-bottom: 5%;
+    color: black;
+}
+
+/* Tabla del paso 1*/
+table {
+    border: 1px solid black;
+}
+
+tr {
+    border: 1px solid black;
+}
+
+.table-header {
+    border: 1px solid black;
+}
+
+.table-row {
+    border: 1px solid black;
+}
+
+tbody td {
+    border: 1px solid black;
+}
+
+
+/* Tabla del paso 1*/
+
+/* Form del paso 2*/
+
+#form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 250px;
+    height: 300px;
+    padding: 40px;
+
+    background: #fff;
+}
+
+#form label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    font-family: sans-serif;
+    color: #282D3E;
+    letter-spacing: 0.05em;
+    text-align: left;
+    padding: 5px;
+    margin-left: 5%;
+}
+
+#form input {
+    width: 200px;
+    height: 20px;
+    border: 3px solid white;
+    border-radius: 4px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    outline: none;
+}
+
+
+#form fieldset {
+    color: #282D3E;
+    max-width: 500px;
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: -9px 0 0 -0.2rem;
+}
+
+#form legend {
+    font-size: small;
+    font-family: sans-serif;
+}
+
+#form select {
+    width: 210px;
+    height: 30px;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+}
+
+/* Form del paso 2*/
+
+/* Boton de confirmar*/
+.button-30 {
+    align-items: center;
+    appearance: none;
+    background-color: #FCFCFD;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #36395A;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono", monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s, transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+}
+
+
+/* Boton de confirmar*/
+
+/*Boton del inicio*/
+
+#buttonInicio {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Boton del inicio*/
+
+/* Form del paso 3*/
+#form2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 350px;
+    height: 600px;
+    padding: 40px;
+
+    background: #fff;
+}
+
+/* Form del paso 3*/
+
+/*-------------------------------------------------*/
